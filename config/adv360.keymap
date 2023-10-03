@@ -82,7 +82,7 @@
  &kp EQUAL     &kp F1          &kp F2    &kp F3         &kp F4            &kp F5             &none                                                                      &mo 3     &kp F6                &kp F7                 &kp F8          &kp F9          &kp F10  &kp MINUS
    &kp TAB     &kp N4          &kp N2    &kp N3         &kp N1            &kp N5             &none                                                                      &none     &kp N6                &kp N0                 &kp N8          &kp N9           &kp N7   &kp BSLH
    &kp ESC  &kp EQUAL  &kp UNDERSCORE   &kp SQT        &kp DQT          &kp AMPS             &none  &kp LCTRL  &kp LALT                   &kp LGUI          &tog 5      &none  &kp TILDE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE  &kp RIGHT_BRACE    &kp SQT
- &kp LSHFT  &kp COLON       &kp MINUS  &kp PLUS  &kp LESS_THAN  &kp GREATER_THAN                               &kp HOME                  &kp PG_UP                                 &kp B             &kp SLASH          &kp BACKSLASH        &kp STAR            &kp Z  &kp RSHFT
+ &kp LSHFT  &kp COLON       &kp MINUS  &kp PLUS  &kp LESS_THAN  &kp GREATER_THAN                               &kp HOME                  &kp PG_UP                                 &kp B             &kp SLASH          &kp BACKSLASH        &kp STAR            &kp B  &kp RSHFT
      &mo 2  &kp GRAVE        &kp CAPS  &kp LEFT      &kp RIGHT                              &trans     &tog 4   &kp END                  &kp PG_DN  &mt RCMD ENTER  &kp SPACE                           &kp UP               &kp DOWN        &kp LBKT         &kp RBKT      &mo 2
             >;
         };
