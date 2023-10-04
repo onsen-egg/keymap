@@ -8,15 +8,15 @@
     "fn",
     "mod",
     "num",
-    "Layer #9"
+    "meta"
   ],
   "layers": [
     [
-       "&kp EQUAL",         "&kp N1",    "&kp N2",   "&kp N3",    "&kp N4", "&kp N5",                   "&tog 1",                                                                                    "&mo 3", "&kp N6", "&kp N7",   "&kp N8",   "&kp N9",   "&kp N0", "&kp MINUS",
-         "&kp TAB", "&kp UNDERSCORE", "&kp COMMA",  "&kp DOT",     "&kp P",  "&kp Y",                    "&none",                                                                                    "&none",  "&kp F",  "&kp G",    "&kp C",    "&kp R",    "&kp L",  "&kp BSLH",
-         "&kp ESC",          "&kp A",     "&kp O",    "&kp E",     "&kp U",  "&kp I",                    "&none", "&kp LEFT_ALT", "&kp LALT",                      "&kp LGUI",         "&tog 4",     "&none",  "&kp D",  "&kp H",    "&kp T",    "&kp N",    "&kp S",   "&kp SQT",
-       "&kp LSHFT",  "&kp SEMICOLON",     "&kp Q",    "&kp J",     "&kp K",  "&kp X",                                             "&kp HOME",                     "&kp PG_UP",                                 "&kp B",  "&kp M",    "&kp W",    "&kp V",    "&kp Z", "&kp RSHFT",
-           "&mo 2",      "&kp GRAVE",  "&kp CAPS", "&kp LEFT", "&kp RIGHT",                     "&mt LCTRL BSPC",        "&mo 4",  "&kp END",                     "&kp PG_DN", "&mt RCMD ENTER", "&kp SPACE",           "&kp UP", "&kp DOWN", "&kp LBKT", "&kp RBKT",     "&mo 2"
+       "&kp EQUAL",         "&kp N1",    "&kp N2",   "&kp N3",    "&kp N4", "&kp N5",                   "&tog 1",                                                                                        "&mo 3", "&kp K_MUTE", "&kp K_VOLUME_DOWN", "&kp K_VOLUME_UP",   "&kp N9",   "&kp N0", "&kp K_PLAY_PAUSE",
+         "&kp TAB", "&kp UNDERSCORE", "&kp COMMA",  "&kp DOT",     "&kp P",  "&kp Y",                    "&none",                                                                                        "&none",      "&kp F",             "&kp G",           "&kp C",    "&kp R",    "&kp L",         "&kp BSLH",
+         "&kp ESC",          "&kp A",     "&kp O",    "&kp E",     "&kp U",  "&kp I",                    "&none", "&kp LEFT_ALT", "&kp LALT",                     "&kp RIGHT_ALT",         "&tog 4",    "&tog 5",      "&kp D",             "&kp H",           "&kp T",    "&kp N",    "&kp S",          "&kp SQT",
+       "&kp LSHFT",  "&kp SEMICOLON",     "&kp Q",    "&kp J",     "&kp K",  "&kp X",                                             "&kp HOME",                         "&kp PG_UP",                                     "&kp B",             "&kp M",           "&kp W",    "&kp V",    "&kp Z",        "&kp RSHFT",
+           "&mo 2",      "&kp GRAVE",  "&kp CAPS", "&kp LEFT", "&kp RIGHT",                     "&mt LCTRL BSPC",        "&mo 4",  "&kp END",                         "&kp PG_DN", "&mt RCMD ENTER", "&kp SPACE",                          "&kp UP",        "&kp DOWN", "&kp LBKT", "&kp RBKT",            "&mo 2"
     ], [
        "&kp EQUAL",    "&kp N1",   "&kp N2",   "&kp N3",    "&kp N4", "&kp N5",           "&trans",                                                                            "&mo 3", "&kp N6", "&kp KP_NUM", "&kp KP_EQUAL", "&kp KP_DIVIDE", "&kp KP_MULTIPLY", "&kp MINUS",
          "&kp TAB",     "&kp Q",    "&kp W",    "&kp E",     "&kp R",  "&kp T",            "&none",                                                                            "&none",  "&kp Y",  "&kp KP_N7",    "&kp KP_N8",     "&kp KP_N9",    "&kp KP_MINUS",  "&kp BSLH",
@@ -42,9 +42,9 @@
        "&kp LSHFT", "&kp COLON",      "&kp MINUS", "&kp PLUS", "&kp LESS_THAN", "&kp GREATER_THAN",                                  "&kp HOME",                     "&kp PG_UP",                                    "&kp B",            "&kp SLASH",         "&kp BACKSLASH",       "&kp STAR",           "&kp B", "&kp RSHFT",
            "&mo 2", "&kp GRAVE",       "&kp CAPS", "&kp LEFT",     "&kp RIGHT",                               "&trans",    "&tog 4",  "&kp END",                     "&kp PG_DN", "&mt RCMD ENTER", "&kp SPACE",                            "&kp UP",              "&kp DOWN",       "&kp LBKT",        "&kp RBKT",     "&mo 2"
     ], [
-       "&kp EQUAL",        "&kp N1",    "&kp N2",   "&kp N3",    "&kp N4", "&kp N5",            "&none",                                                                            "&mo 3", "&kp N6",               "&kp N7",          "&kp N8",   "&kp N9",   "&kp N0", "&kp MINUS",
+       "&kp EQUAL",        "&kp N1",    "&kp N2",   "&kp N3",    "&kp N4", "&kp N5",            "&none",                                                                            "&mo 3", "&kp N6",    "&kp K_VOLUME_DOWN", "&kp K_VOLUME_UP",   "&kp N9",   "&kp N0", "&kp MINUS",
          "&kp TAB",         "&kp Q", "&kp COMMA",  "&kp DOT",     "&kp P",  "&kp Y",            "&none",                                                                            "&none",  "&kp F",                "&kp G",           "&kp C",    "&kp R",    "&kp L",  "&kp BSLH",
-         "&kp ESC",         "&kp A",     "&kp O",    "&kp E",     "&kp U",  "&kp I",            "&none", "&kp LCTRL", "&kp LALT",                      "&kp LGUI", "&kp RCTRL",     "&none",  "&kp D", "&macro_crtl_shft_tab", "&macro_ctrl_tab",    "&kp N",    "&kp S",   "&kp SQT",
+         "&kp ESC",         "&kp A",     "&kp O",    "&kp E",     "&kp U",  "&kp I",            "&none", "&kp LCTRL", "&kp LALT",                      "&kp LGUI", "&kp RCTRL",    "&tog 5",  "&kp D", "&macro_crtl_shft_tab", "&macro_ctrl_tab",    "&kp N",    "&kp S",   "&kp SQT",
        "&kp LSHFT", "&kp SEMICOLON",     "&kp Q",    "&kp J",     "&kp K",  "&kp X",                                  "&kp HOME",                     "&kp PG_UP",                            "&kp B",                "&kp M",           "&kp W",    "&kp V",    "&kp Z", "&kp RSHFT",
            "&mo 2",     "&kp GRAVE",  "&kp CAPS", "&kp LEFT", "&kp RIGHT",                     "&trans",   "&kp DEL",  "&kp END",                     "&kp PG_DN",    "&tog 5", "&kp SPACE",                         "&kp UP",        "&kp DOWN", "&kp LBKT", "&kp RBKT",     "&mo 2"
     ], [

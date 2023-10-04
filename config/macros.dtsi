@@ -2,13 +2,13 @@ macro_crtl_shft_tab: macro_crtl_shft_tab{
 compatible = "zmk,behavior-macro";
 label = "macro_crtl_shft_tab";
 #binding-cells = <0>;
-bindings = <&kp LCTRL>, <&kp LEFT_SHIFT>, <&kp TAB>;
+bindings = <&sk LCTRL>, <&sk LSHIFT>, <&kp TAB>;
 };
 macro_ctrl_tab: macro_ctrl_tab{
 compatible = "zmk,behavior-macro";
 label = "macro_ctrl_tab";
 #binding-cells = <0>;
-bindings = <&kp LCTRL>, <&kp TAB>;
+bindings = <&sk LCTRL>, <&kp TAB>;
 };
 macro_cmd_tab: macro_cmd_tab{
 compatible = "zmk,behavior-macro";
