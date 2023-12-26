@@ -41,7 +41,7 @@
         default_layer {
             bindings = <
            &kp EQUAL              &kp C_BRI_DN  &kp C_BRI_UP  &kp C_PREV  &kp C_NEXT   &none                         &tog 6                                                                          &mo 3   &none  &kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOL_UP    &kp N0  &kp C_PLAY_PAUSE
-             &kp TAB          &kp SINGLE_QUOTE     &kp COMMA     &kp DOT       &kp P   &kp Y                          &none                                                                          &none   &kp F       &kp G              &kp C         &kp R     &kp L          &kp BSLH
+             &kp TAB          &kp SINGLE_QUOTE     &kp COMMA     &kp DOT       &kp P   &kp Y                         &tog 8                                                                          &none   &kp F       &kp G              &kp C         &kp R     &kp L          &kp BSLH
         &mt LALT ESC                     &kp A         &kp O       &kp E       &kp U   &kp I                          &none  &kp LEFT_ALT  &kp LALT                  &kp RIGHT_ALT       &tog 5      &none   &kp D       &kp H              &kp T         &kp N     &kp S           &kp SQT
  &mt LEFT_SHIFT CAPS  &mt LEFT_SHIFT SEMICOLON         &kp Q       &kp J       &kp K   &kp X                                               &kp HOME                      &kp PG_UP                           &kp B       &kp M              &kp W         &kp V     &kp Z         &kp RSHFT
             &kp LCMD                 &kp GRAVE      &kp CAPS    &kp LEFT    &kp LCMD                    &mt LCTRL BACKSPACE         &mo 4    &tog 5                      &kp PG_DN  &lt 7 ENTER  &kp SPACE              &kp UP           &kp DOWN      &kp LBKT  &kp RBKT             &mo 2
@@ -80,11 +80,11 @@
 
         layer_num {
             bindings = <
- &kp EQUAL     &kp F1          &kp F2     &kp F3         &kp F4            &kp F5             &none                                                                      &mo 3     &kp F6                &kp F7                 &kp F8          &kp F9          &kp F10  &kp MINUS
-   &kp TAB     &kp N4          &kp N2     &kp N3         &kp N1            &kp N5             &none                                                                      &none     &kp N6                &kp N0                 &kp N8          &kp N9           &kp N7   &kp BSLH
-   &kp ESC  &kp EQUAL  &kp UNDERSCORE  &kp UNDER        &kp DQT          &kp AMPS             &none  &kp LCTRL  &kp LALT                   &kp LGUI          &tog 5      &none  &kp TILDE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE  &kp RIGHT_BRACE    &kp SQT
- &kp LSHFT  &kp COLON        &kp PLUS  &kp MINUS  &kp LESS_THAN  &kp GREATER_THAN                               &kp HOME                  &kp PG_UP                                 &kp B             &kp SLASH          &kp BACKSLASH        &kp STAR            &kp B  &kp RSHFT
-     &mo 2  &kp GRAVE        &kp CAPS   &kp LEFT      &kp RIGHT                              &trans     &trans   &kp END                  &kp PG_DN  &mt RCMD ENTER  &kp SPACE                           &kp UP               &kp DOWN        &kp LBKT         &kp RBKT      &mo 2
+ &kp EQUAL     &kp F1          &kp F2     &kp F3         &kp F4            &kp F5             &none                                                                      &mo 3     &kp F6                &kp F7                 &kp F8            &kp F9            &kp F10  &kp MINUS
+   &kp TAB     &kp N4          &kp N2     &kp N3         &kp N1            &kp N5             &none                                                                      &none     &kp N6                &kp N0                 &kp N8            &kp N9             &kp N7   &kp BSLH
+   &kp ESC  &kp EQUAL  &kp UNDERSCORE  &kp UNDER        &kp DQT          &kp AMPS             &none  &kp LCTRL  &kp LALT                   &kp LGUI          &tog 5      &none  &kp TILDE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp SQT
+ &kp LSHFT  &kp COLON        &kp PLUS  &kp MINUS  &kp LESS_THAN  &kp GREATER_THAN                               &kp HOME                  &kp PG_UP                              &kp STAR             &kp SLASH          &kp BACKSLASH  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp RSHFT
+     &mo 2  &kp GRAVE        &kp CAPS   &kp LEFT      &kp RIGHT                              &trans     &trans   &kp END                  &kp PG_DN  &mt RCMD ENTER  &kp SPACE                           &kp UP               &kp DOWN          &kp LBKT           &kp RBKT      &mo 2
             >;
         };
 
@@ -118,37 +118,67 @@
             >;
         };
 
-        layer_8 {
+        layer_ableton {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+ &trans          &trans     &trans                 &trans                 &trans  &trans               &trans                                                                &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans         &kp TAB  &kp COMMA  &macro_ableton_search  &macro_ableton_rename  &trans               &trans                                                                &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans           &kp Y      &kp Z                  &kp C                  &kp D  &trans               &trans     &trans  &trans                  &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &kp LEFT_SHIFT      &kp X                  &kp C                  &kp V  &trans                                  &trans                  &trans                             &trans  &trans  &trans  &trans  &trans  &trans
+ &trans          &trans     &trans                 &trans                 &trans                    &kp LCTRL  &kp SPACE  &trans                  &trans  &macro_ableton_kb  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
-        layer_9 {
+        layer_ableton_base {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                                 &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                                 &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans                 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                                 &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &macro_ableton_return  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
-        layer_10 {
+        layer_ableton_numpad {
             bindings = <
  &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans   &none   &none   &none   &none            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans   &none   &none   &none   &none            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans   &none   &none   &none  &trans                            &trans                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
         layer_11 {
+            bindings = <
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        layer_12 {
+            bindings = <
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        layer_13 {
+            bindings = <
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        layer_14 {
             bindings = <
  &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
