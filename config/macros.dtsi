@@ -1,3 +1,9 @@
+macro_ctrl_comma: macro_ctrl_comma{
+compatible = "zmk,behavior-macro";
+label = "macro_ctrl_comma";
+#binding-cells = <0>;
+bindings = <&kp LCTRL>, <&kp COMMA>;
+};
 macro_ctrl_a: macro_ctrl_a{
 compatible = "zmk,behavior-macro";
 label = "macro_ctrl_a";
