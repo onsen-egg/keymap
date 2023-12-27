@@ -121,9 +121,9 @@
         layer_ableton_ctrl {
             bindings = <
  &trans             &trans         &trans         &trans         &trans         &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &macro_ctrl_comma  &macro_ctrl_y  &macro_ctrl_d  &macro_ctrl_g  &macro_ctrl_o            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans     &kp LEFT_SHIFT  &macro_ctrl_z  &macro_ctrl_s  &macro_ctrl_t  &macro_ctrl_x            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans      &macro_ctrl_a  &macro_ctrl_j  &macro_ctrl_c  &macro_ctrl_v  &macro_ctrl_i                            &trans                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &macro_ctrl_comma  &macro_ctrl_a  &macro_ctrl_d  &macro_ctrl_g  &macro_ctrl_o            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans     &kp LEFT_SHIFT  &macro_ctrl_x  &macro_ctrl_s  &macro_ctrl_t  &macro_ctrl_j            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans      &macro_ctrl_y  &macro_ctrl_z  &macro_ctrl_c  &macro_ctrl_v  &macro_ctrl_i                            &trans                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
  &trans             &trans         &trans         &trans         &trans                           &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
