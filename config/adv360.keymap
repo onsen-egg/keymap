@@ -150,15 +150,15 @@
 
         layer_ableton_ctrl {
             bindings = <
- &trans             &trans         &trans         &trans         &trans                 &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &macro_ctrl_comma  &macro_ctrl_y  &macro_ctrl_s  &macro_ctrl_g  &macro_ableton_search            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans      &macro_ctrl_a  &macro_ctrl_z  &macro_ctrl_d  &macro_ctrl_t  &macro_ableton_rename            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans     &kp LEFT_SHIFT  &macro_ctrl_i  &macro_ctrl_c  &macro_ctrl_v          &macro_ctrl_x                            &trans                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
- &trans             &trans         &trans         &trans         &trans                                   &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+ &trans             &trans         &trans         &trans         &trans         &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &macro_ctrl_comma  &macro_ctrl_y  &macro_ctrl_s  &macro_ctrl_g          &none            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans      &macro_ctrl_a  &macro_ctrl_z  &macro_ctrl_d  &macro_ctrl_t  &macro_ctrl_i            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans     &kp LEFT_SHIFT  &macro_ctrl_j  &macro_ctrl_c  &macro_ctrl_v  &macro_ctrl_x                            &trans                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans             &trans         &trans         &trans         &trans                           &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
-        layer_Layer__16 {
+        layer_12 {
             bindings = <
  &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
@@ -189,16 +189,6 @@
         };
 
         layer_15 {
-            bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
-            >;
-        };
-
-        layer_16 {
             bindings = <
  &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
