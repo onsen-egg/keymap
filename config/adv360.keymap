@@ -90,11 +90,11 @@
 
         layer_ableton {
             bindings = <
-  &trans          &trans  &trans     &trans        &trans                 &trans            &trans                                                             &trans  &trans  &trans  &trans  &trans  &trans  &trans
-  &trans           &kp R   &kp S     &kp N0  &kp LEFT_ALT  &macro_ableton_search            &trans                                                             &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &kp ESC  &kp LEFT_SHIFT  &kp F9  &kp SPACE       &kp TAB  &macro_ableton_rename            &trans  &trans  &trans                  &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-  &trans           &kp Z   &kp X   &kp DOWN        &kp UP                 &trans                            &trans                  &trans                             &trans  &trans  &trans  &trans  &trans  &trans
-  &trans          &trans  &trans     &trans        &trans                                    &mo 8  &tog 7  &trans                  &trans  &macro_ableton_kb  &trans          &trans  &trans  &trans  &trans  &trans
+  &trans          &trans             &trans     &trans        &trans                 &trans            &trans                                                             &trans  &trans  &trans  &trans  &trans  &trans  &trans
+  &trans           &kp R              &kp S     &kp N0  &kp LEFT_ALT  &macro_ableton_search            &trans                                                             &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &kp ESC  &kp LEFT_SHIFT             &kp F9  &kp SPACE       &kp TAB  &macro_ableton_rename            &trans  &trans  &trans                  &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+  &trans           &kp Z  &macro_ctrl_alt_l   &kp DOWN        &kp UP                 &trans                            &trans                  &trans                             &trans  &trans  &trans  &trans  &trans  &trans
+  &trans          &trans             &trans     &trans        &trans                                    &mo 8  &tog 7  &trans                  &trans  &macro_ableton_kb  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
