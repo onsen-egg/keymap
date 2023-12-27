@@ -2,13 +2,13 @@ macro_ctrl_alt_b: macro_ctrl_alt_b{
 compatible = "zmk,behavior-macro";
 label = "macro_ctrl_alt_b";
 #binding-cells = <0>;
-bindings = <&sk LCTRL>, <&sk LEFT_ALT>, <&kp B>;
+bindings = <&sk LEFT_ALT>, <&kp B>;
 };
 macro_ctrl_alt_l: macro_ctrl_alt_l{
 compatible = "zmk,behavior-macro";
 label = "macro_ctrl_alt_l";
 #binding-cells = <0>;
-bindings = <&sk LCTRL>, <&sk LEFT_ALT>, <&kp L>;
+bindings = <&sk LEFT_ALT>, <&kp L>;
 };
 macro_ableton_num_off: macro_ableton_num_off{
 compatible = "zmk,behavior-macro";
