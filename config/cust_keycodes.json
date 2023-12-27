@@ -1,1 +1,19 @@
-[]
+[
+	{
+		"names": [
+			"ctrl_alt_b"
+		],
+		"description": "ctrl_alt_b",
+		"clarify": false,
+		"documentation": "",
+		"os": {
+			"windows": true,
+			"linux": true,
+			"android": true,
+			"macos": true,
+			"ios": true
+		},
+		"footnotes": {},
+		"type": "UD"
+	}
+]
