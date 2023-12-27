@@ -124,7 +124,7 @@
   &trans           &kp R    &kp S     &kp N0  &kp LEFT_ALT  &macro_ableton_search            &trans                                                             &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &kp ESC  &kp LEFT_SHIFT  &kp TAB  &kp SPACE        &kp F9  &macro_ableton_rename            &trans  &trans  &trans                  &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
   &trans           &kp Z    &kp X   &kp DOWN        &kp UP                 &trans                            &trans                  &trans                             &trans  &trans  &trans  &trans  &trans  &trans
-  &trans          &trans   &trans     &trans        &trans                                   &mo 11     &mo  &trans                  &trans  &macro_ableton_kb  &trans          &trans  &trans  &trans  &trans  &trans
+  &trans          &trans   &trans     &trans        &trans                                   &mo 11  &mo 10  &trans                  &trans  &macro_ableton_kb  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
