@@ -1,8 +1,14 @@
+macro_ableton_num_off: macro_ableton_num_off{
+compatible = "zmk,behavior-macro";
+label = "macro_ableton_num_off";
+#binding-cells = <0>;
+bindings = <&kp ENTER>, <&tog 7>;
+};
 macro_ctrl_j: macro_ctrl_j{
 compatible = "zmk,behavior-macro";
 label = "macro_ctrl_j";
 #binding-cells = <0>;
-bindings = <&kp LCTRL>, <&kp J>;
+bindings = <&sk LCTRL>, <&kp J>;
 };
 macro_ctrl_shift_x: macro_ctrl_shift_x{
 compatible = "zmk,behavior-macro";
@@ -14,19 +20,19 @@ macro_ctrl_i: macro_ctrl_i{
 compatible = "zmk,behavior-macro";
 label = "macro_ctrl_i";
 #binding-cells = <0>;
-bindings = <&kp LCTRL>, <&kp I>;
+bindings = <&sk LCTRL>, <&kp I>;
 };
 macro_ctrl_comma: macro_ctrl_comma{
 compatible = "zmk,behavior-macro";
 label = "macro_ctrl_comma";
 #binding-cells = <0>;
-bindings = <&kp LCTRL>, <&kp COMMA>;
+bindings = <&sk LCTRL>, <&kp COMMA>;
 };
 macro_ctrl_a: macro_ctrl_a{
 compatible = "zmk,behavior-macro";
 label = "macro_ctrl_a";
 #binding-cells = <0>;
-bindings = <&kp LCTRL>, <&kp A>;
+bindings = <&sk LCTRL>, <&kp A>;
 };
 macro_ctrl_shift_t: macro_ctrl_shift_t{
 compatible = "zmk,behavior-macro";
@@ -38,67 +44,67 @@ macro_ctrl_t: macro_ctrl_t{
 compatible = "zmk,behavior-macro";
 label = "macro_ctrl_t";
 #binding-cells = <0>;
-bindings = <&kp LCTRL>, <&kp T>;
+bindings = <&sk LCTRL>, <&kp T>;
 };
 macro_ctrl_n: macro_ctrl_n{
 compatible = "zmk,behavior-macro";
 label = "macro_ctrl_n";
 #binding-cells = <0>;
-bindings = <&kp LCTRL>, <&kp N>;
+bindings = <&sk LCTRL>, <&kp N>;
 };
 macro_ctrl_o: macro_ctrl_o{
 compatible = "zmk,behavior-macro";
 label = "macro_ctrl_o";
 #binding-cells = <0>;
-bindings = <&kp LCTRL>, <&kp O>;
+bindings = <&sk LCTRL>, <&kp O>;
 };
 macro_ctrl_s: macro_ctrl_s{
 compatible = "zmk,behavior-macro";
 label = "macro_ctrl_s";
 #binding-cells = <0>;
-bindings = <&kp LCTRL>, <&kp S>;
+bindings = <&sk LCTRL>, <&kp S>;
 };
 macro_ctrl_g: macro_ctrl_g{
 compatible = "zmk,behavior-macro";
 label = "macro_ctrl_g";
 #binding-cells = <0>;
-bindings = <&kp LCTRL>, <&kp G>;
+bindings = <&sk LCTRL>, <&kp G>;
 };
 macro_ctrl_d: macro_ctrl_d{
 compatible = "zmk,behavior-macro";
 label = "macro_ctrl_d";
 #binding-cells = <0>;
-bindings = <&kp LCTRL>, <&kp D>;
+bindings = <&sk LCTRL>, <&kp D>;
 };
 macro_ctrl_z: macro_ctrl_z{
 compatible = "zmk,behavior-macro";
 label = "macro_ctrl_z";
 #binding-cells = <0>;
-bindings = <&kp LCTRL>, <&kp Z>;
+bindings = <&sk LCTRL>, <&kp Z>;
 };
 macro_ctrl_y: macro_ctrl_y{
 compatible = "zmk,behavior-macro";
 label = "macro_ctrl_y";
 #binding-cells = <0>;
-bindings = <&kp LCTRL>, <&kp Y>;
+bindings = <&sk LCTRL>, <&kp Y>;
 };
 macro_ctrl_x: macro_ctrl_x{
 compatible = "zmk,behavior-macro";
 label = "macro_ctrl_x";
 #binding-cells = <0>;
-bindings = <&kp LCTRL>, <&kp X>;
+bindings = <&sk LCTRL>, <&kp X>;
 };
 macro_ctrl_v: macro_ctrl_v{
 compatible = "zmk,behavior-macro";
 label = "macro_ctrl_v";
 #binding-cells = <0>;
-bindings = <&kp LCTRL>, <&kp V>;
+bindings = <&sk LCTRL>, <&kp V>;
 };
 macro_ctrl_c: macro_ctrl_c{
 compatible = "zmk,behavior-macro";
 label = "macro_ctrl_c";
 #binding-cells = <0>;
-bindings = <&kp LCTRL>, <&kp C>;
+bindings = <&sk LCTRL>, <&kp C>;
 };
 macro_ableton_kb: macro_ableton_kb{
 compatible = "zmk,behavior-macro";
