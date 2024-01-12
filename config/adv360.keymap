@@ -44,7 +44,7 @@
              &kp TAB          &kp SINGLE_QUOTE     &kp COMMA     &kp DOT       &kp P   &kp Y                         &tog 5                                                                          &none   &kp F       &kp G              &kp C         &kp R     &kp L          &kp BSLH
         &mt LALT ESC                     &kp A         &kp O       &kp E       &kp U   &kp I                          &none  &kp LEFT_ALT  &kp LALT                  &kp RIGHT_ALT    &kp RCTRL      &none   &kp D       &kp H              &kp T         &kp N     &kp S           &kp SQT
  &mt LEFT_SHIFT CAPS  &mt LEFT_SHIFT SEMICOLON         &kp Q       &kp J       &kp K   &kp X                                               &kp HOME                      &kp PG_UP                           &kp B       &kp M              &kp W         &kp V     &kp Z         &kp RSHFT
-            &kp LCMD                 &kp GRAVE      &kp CAPS    &kp LEFT    &kp LCMD                    &mt LCTRL BACKSPACE         &mo 2     &none                      &kp PG_DN  &lt 4 ENTER  &kp SPACE              &kp UP           &kp DOWN      &kp LBKT  &kp RBKT          &kp RCMD
+            &kp LCMD                 &kp GRAVE      &kp CAPS    &kp LEFT   &kp RIGHT                    &mt LCTRL BACKSPACE         &mo 2     &none                      &kp PG_DN  &lt 4 ENTER  &kp SPACE              &kp UP           &kp DOWN      &kp LBKT  &kp RBKT          &kp RCMD
             >;
         };
 
@@ -72,7 +72,7 @@
             bindings = <
         &kp ESC          &kp N1     &kp N2    &kp N3     &kp N4  &kp N5               &trans                                                                 &mo 3  &trans  &trans    &trans    &trans    &trans     &trans
         &kp TAB           &kp Q  &kp COMMA     &kp W      &kp E  &kp N6                &none                                                                 &none   &kp F   &kp G     &kp C     &kp R     &kp L   &kp BSLH
- &kp LEFT_SHIFT  &kp LEFT_SHIFT      &kp A     &kp S      &kp D  &kp N7                &none  &kp LCTRL  &kp LALT                   &kp LGUI  &kp RCTRL      &none   &kp D   &kp H     &kp T     &kp N     &kp S    &kp SQT
+        &kp ESC           &kp Z      &kp A     &kp S      &kp D  &kp N7                &none  &kp LCTRL  &kp LALT                   &kp LGUI  &kp RCTRL      &none   &kp D   &kp H     &kp T     &kp N     &kp S    &kp SQT
       &kp LSHFT   &kp SEMICOLON      &kp Q     &kp E      &kp K  &kp N8                                  &kp HOME                  &kp PG_UP                         &kp B   &kp M     &kp W     &kp V     &kp Z  &kp RSHFT
           &mo 2       &kp GRAVE   &kp CAPS  &kp LEFT  &kp RIGHT                    &kp SPACE    &kp DEL   &kp END                  &kp PG_DN     &trans  &kp SPACE          &kp UP  &kp DOWN  &kp LBKT  &kp RBKT      &mo 2
             >;
