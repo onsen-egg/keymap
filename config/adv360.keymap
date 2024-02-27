@@ -82,7 +82,7 @@
             bindings = <
  &trans  &trans  &trans     &trans   &trans  &trans            &trans                                                  &trans  &trans    &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans     &trans   &trans  &trans            &trans                                                  &trans  &trans    &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &kp TILDE  &kp TAB  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &kp RCMD  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &kp TILDE  &kp TAB  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &kp ENTER &trans
  &trans  &trans  &trans     &trans   &trans  &trans                            &trans                  &trans                  &trans    &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans     &trans   &trans                    &trans  &trans  &trans                  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans
             >;
