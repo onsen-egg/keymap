@@ -63,7 +63,7 @@
  &kp F12     &kp F1          &kp F2     &kp F3         &kp F4            &kp F5             &none                                                          &trans     &kp F6                &kp F7                 &kp F8            &kp F9            &kp F10  &kp F11
   &trans     &kp N4          &kp N2     &kp N3         &kp N1            &kp N5             &none                                                           &none     &kp N6                &kp N0                 &kp N8            &kp N9             &kp N7   &trans
   &trans  &kp EQUAL  &kp UNDERSCORE  &kp UNDER        &kp DQT          &kp AMPS             &none  &trans  &trans                  &trans          &trans   &none  &kp TILDE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp LEFT_BRACE    &kp RIGHT_BRACE   &trans
-  &trans  &mt LEFT_SHIFT COLON        &kp PLUS  &kp MINUS  &kp LESS_THAN  &kp GREATER_THAN                            &trans                  &trans                           &kp STAR             &kp SLASH          &kp BACKSLASH  &kp LEFT_BRACKET  &lt RSHIFT RIGHT_BRACKET   &trans
+  &trans  &mt LEFT_SHIFT GRAVE        &kp PLUS  &kp MINUS  &kp LESS_THAN  &kp GREATER_THAN                            &trans                  &trans                           &kp STAR             &kp SLASH          &kp BACKSLASH  &kp LEFT_BRACKET  &lt RSHIFT RIGHT_BRACKET   &trans
   &trans     &trans          &trans     &trans         &trans                              &trans  &trans  &trans                  &trans  &mt RCMD ENTER  &trans                           &trans                 &trans            &trans             &trans   &trans
             >;
         };
